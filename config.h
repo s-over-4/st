@@ -1,7 +1,7 @@
 #include <theme.h>
 
 static char *font                         = FONT_MONO;                                       // fonts
-static char *font2[]                      = { FONT_MONO };
+static char *font2[]                      = { FONT_MONO, "Apple Color Emoji:size=10" };
 static int borderpx                       = 5;                                               // padding between window border and content
 
 static char *shell                        = "/bin/zsh";                                      // shell; overwritten by $SHELL and user settings
@@ -49,7 +49,7 @@ char *termname                            = "st-256color";                      
 
 unsigned int tabspaces                    = 3;                                               // the number of spaces in a tab.
 
-float alpha                               = 0.95;                                            // background opacity
+float alpha                               = 0.9;                                            // background opacity
 float alphaOffset                         = 0.0;
 float alphaUnfocus;
 
