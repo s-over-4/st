@@ -1,5 +1,7 @@
 #include <theme.h>
 
+char* a = gbfg3;
+
 static char *font                         = FONT_MONO;                                       // fonts
 static char *font2[]                      = { FONT_MONO, "Apple Color Emoji:size=10" };
 static int borderpx                       = 5;                                               // padding between window border and content
